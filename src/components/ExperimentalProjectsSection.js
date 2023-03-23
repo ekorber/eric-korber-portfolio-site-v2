@@ -4,7 +4,7 @@ function ExperimentalProjectsSection() {
     return (
         <div className="row">
             <h2 className="text-center my-5">EXPERIMENTAL SNIPPETS</h2>
-            <p className="text-center my-4">These are small one-off scenes, used to experiment with a certain system, or sometimes an interesting visual aesthetic. They are not finished products, and thus have some placeholder art, and do not always have audio playing in the video.</p>
+            <p className="text-center mb-4">These are small one-off scenes, used to experiment with a certain system, or sometimes an interesting visual aesthetic. They are not finished products, and thus have some placeholder art, and do not always have audio playing in the video.</p>
 
             <HalfPageShowcasePiece
                 title="3D HORROR PLATFORMING"

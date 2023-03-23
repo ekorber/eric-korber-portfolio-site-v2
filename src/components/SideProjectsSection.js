@@ -4,7 +4,7 @@ import BirthdayCardImage from "../img/ue5-bday-card.webp";
 function SideProjectsSection() {
     return (
         <div className="row">
-            <h2 class="text-center mb-5 mt-4">SIDE PROJECTS</h2>
+            <h2 class="text-center my-5">SIDE PROJECTS</h2>
 
             <h4 class="text-center mb-5">Comic-themed Birthday Card, made in Unreal Engine 5</h4>
             
