@@ -9,18 +9,22 @@ function ExperimentalProjectsSection() {
             <HalfPageShowcasePiece
                 title="3D HORROR PLATFORMING"
                 url="https://www.youtube.com/embed/zfZ3p7PtYSY"
+                videoMetaTitle="III - Down The Hatch"
             />
             <HalfPageShowcasePiece
                 title="JRPG BATTLE TRANSITIONS"
                 url="https://www.youtube.com/embed/swGjDkpFM-Q"
+                videoMetaTitle="Smooth Battle Transitions, Characters Walk Around Freely"
             />
             <HalfPageShowcasePiece
                 title="PSYCHEDELIC FOREST AESTHETIC"
                 url="https://www.youtube.com/embed/Bv5NOOfKulw"
+                videoMetaTitle="Mushroom Forest - Various Visual Improvements Made"
             />
             <HalfPageShowcasePiece
                 title="DREAMY HEARTBREAK AESTHETIC"
                 url="https://www.youtube.com/embed/2P5IHi3sv2E"
+                videoMetaTitle="Dreamy Love/Sadness Aesthetic"
             />
         </div>
     );

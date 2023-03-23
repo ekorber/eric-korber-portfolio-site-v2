@@ -5,7 +5,7 @@ function HalfPageShowcasePiece(props) {
         <div className="col-lg-6 mt-5 mb-4">
             <h4 className="text-center">{props.title}</h4>
 
-            <EmbeddedVideoLink url={props.url} title={props.title} />
+            <EmbeddedVideoLink url={props.url} videoMetaTitle={props.videoMetaTitle} />
 
             {typeof props.description !== "undefined" && <p>{props.description}</p>}
 
