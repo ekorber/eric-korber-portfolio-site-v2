@@ -7,9 +7,9 @@ function HalfPageShowcasePiece(props) {
 
             <EmbeddedVideoLink url={props.url} title={props.title} />
 
-            {props.description !== "" && <p>{props.description}</p>}
+            {typeof props.description !== "undefined" && <p>{props.description}</p>}
 
-            {props.additionalText !== "" && <p className="text-center mt-3 mb-4">{props.additionalText}</p>}
+            {typeof props.additionalText !== "undefined" && <p className="text-center mt-3 mb-4">{props.additionalText}</p>}
         </div>
     );
 }
