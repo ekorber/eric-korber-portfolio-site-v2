@@ -1,22 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import MainProjectsSection from './components/MainProjectsSection';
-import SideProjectsSection from './components/SideProjectsSection';
-import ExperimentalProjectsSection from './components/ExperimentalProjectsSection';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HeaderNavbar from './components/HeaderNavbar';
+import GameDevPortfolioPage from './pages/GameDevPortfolioPage';
+import AboutPage from './pages/AboutPage';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
-    <div className="App">
-      <HeaderNavbar />
-      <div className='container'>
-        <MainProjectsSection />
-        <hr />
-        <SideProjectsSection />
-        <hr />
-        <ExperimentalProjectsSection />
+    <BrowserRouter>
+      <div className="App">
+        <HeaderNavbar />
+        <Routes>
+          <Route path='/' element={<GameDevPortfolioPage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route path='*' element={<ErrorPage />} />
+        </Routes>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
