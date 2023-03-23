@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import MainProjectsSection from './components/MainProjectsSection';
 import SideProjectsSection from './components/SideProjectsSection';
+import ExperimentalProjectsSection from './components/ExperimentalProjectsSection';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <MainProjectsSection />
       <hr />
       <SideProjectsSection />
+      <hr />
+      <ExperimentalProjectsSection />
     </div>
   );
 }
