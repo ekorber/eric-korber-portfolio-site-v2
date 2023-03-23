@@ -1,0 +1,11 @@
+nav {
+    background: rgb(126, 0, 0);
+}
+
+.navbar-brand, .navbar-link {
+    color: rgb(235, 235, 235);
+}
+
+.navbar-link {
+    margin-right: 10px;
+}
