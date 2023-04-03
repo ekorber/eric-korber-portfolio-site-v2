@@ -2,7 +2,7 @@ import './HeaderNavbar.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function HeaderNavbar() {
     return (
@@ -12,8 +12,15 @@ function HeaderNavbar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
-                        <Link to="/" className="navbar-link">Game Development</Link>
-                        <Link to="/about" className="navbar-link">About Me</Link>
+                        <NavLink to="/"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
+                        }>Game Development</NavLink>
+                        
+                        <NavLink to="/about"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
+                        }>About Me</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
