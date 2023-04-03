@@ -5,7 +5,7 @@ function AboutPage() {
     return (
         <div className='container'>
             <div className='row my-5'>
-                <img src={PortraitImage} className="portrait-image" />
+                <img src={PortraitImage} className="portrait-image" alt="" />
             </div>
 
             <div className="row col-lg-12 text-center">
