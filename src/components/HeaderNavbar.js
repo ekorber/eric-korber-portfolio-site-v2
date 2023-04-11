@@ -21,6 +21,11 @@ function HeaderNavbar() {
                         className={({ isActive, isPending }) =>
                             isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
                         }>About Me</NavLink>
+
+                        <NavLink to="/contact"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
+                        }>Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
