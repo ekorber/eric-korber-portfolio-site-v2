@@ -1,3 +1,8 @@
 textarea {
     height: 150px;
 }
+
+.form-submit:disabled, .form-submit:disabled:active {
+    background-color: gray;
+    border-color: black;
+}
