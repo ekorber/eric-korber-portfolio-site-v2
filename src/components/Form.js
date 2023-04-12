@@ -23,7 +23,7 @@ function Form() {
             <textarea {...register("text-body")} className="form-control mb-3" type='textarea' placeholder='Your message here' required/>
             <ReCAPTCHA
                 ref={recaptchaRef}
-                sitekey="6Ld2B3wlAAAAAC7YnoyLZmVN8SCIP5cwPP2AaB5x"
+                sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                 onChange={onChange}
                 className="mt-5 mb-3"
                 />
