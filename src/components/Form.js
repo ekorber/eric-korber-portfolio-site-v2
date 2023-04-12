@@ -19,8 +19,9 @@ function Form() {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
-            <input {...register("email")} className="form-control mb-3" type='email' placeholder='Email Address' required/>
-            <textarea {...register("text-body")} className="form-control mb-3" type='textarea' placeholder='Your message here' required/>
+            <input {...register("name", { maxLength: 99 })} className="form-control mb-3" placeholder='Name' required/>
+            <input {...register("email", { maxLength: 300 })} className="form-control mb-3" type='email' placeholder='Email Address' required/>
+            <textarea {...register("text-body", { maxLength: 9999 })} className="form-control mb-3" type='textarea' placeholder='Your message here' required/>
             <ReCAPTCHA
                 ref={recaptchaRef}
                 sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
