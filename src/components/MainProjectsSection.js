@@ -4,7 +4,7 @@ function MainProjectsSection() {
     return (
         <div className="row">
 
-            <h2 class="text-center mt-5">MAIN PROJECTS</h2>
+            <h2 className="text-center mt-5">MAIN PROJECTS</h2>
 
             <HalfPageShowcasePiece
                 title="Rekill - Demo Footage"
