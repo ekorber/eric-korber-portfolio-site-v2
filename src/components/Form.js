@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { createRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Form.css';
 
 function Form() {
@@ -8,23 +9,30 @@ function Form() {
     const [ recaptchaVerified, setVerified ] = useState(false);
     const { register, handleSubmit } = useForm();
     const recaptchaRef = createRef();
+    const navigate = useNavigate();
 
     function onChange(value) {
         setVerified(true);
     }
 
     const onSubmit = (data) => {
-
         fetch("https://k7pekghmp3.execute-api.us-east-1.amazonaws.com/contact-form-submission", {
-            mode: "no-cors",
+            mode: "cors",
             method: "POST",
             headers: {
                 Accept: "application/json",
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(data)
-        });
-        
+        }).then(res => {
+            if (res.ok) {
+                navigate('/formSubmissionResponse/true');
+            } else {
+                navigate('/formSubmissionResponse/false');
+            }
+        }).catch(err => {
+            navigate('/formSubmissionResponse/false');
+        })
     }
 
     return (

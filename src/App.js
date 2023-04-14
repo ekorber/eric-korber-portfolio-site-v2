@@ -5,6 +5,7 @@ import HeaderNavbar from './components/HeaderNavbar';
 import GameDevPortfolioPage from './pages/GameDevPortfolioPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import FormSubmissionConfirmationPage from './pages/FormSubmissionConfirmationPage';
 import ErrorPage from './pages/ErrorPage';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<GameDevPortfolioPage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/formSubmissionResponse/:responseSuccess' element={<FormSubmissionConfirmationPage />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </div>
