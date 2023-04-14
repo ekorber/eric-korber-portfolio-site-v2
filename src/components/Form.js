@@ -14,7 +14,17 @@ function Form() {
     }
 
     const onSubmit = (data) => {
-        alert(JSON.stringify(data));
+
+        fetch("https://k7pekghmp3.execute-api.us-east-1.amazonaws.com/contact-form-submission", {
+            mode: "no-cors",
+            method: "POST",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+        
     }
 
     return (
