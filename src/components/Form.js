@@ -7,6 +7,7 @@ import './Form.css';
 function Form() {
 
     const [ recaptchaVerified, setVerified ] = useState(false);
+    const [ submitButtonPressed, setSubmitButtonPressed ] = useState(false);
     const { register, handleSubmit } = useForm();
     const recaptchaRef = createRef();
     const navigate = useNavigate();
@@ -16,6 +17,8 @@ function Form() {
     }
 
     const onSubmit = (data) => {
+        setSubmitButtonPressed(true);
+
         fetch("https://k7pekghmp3.execute-api.us-east-1.amazonaws.com/contact-form-submission", {
             mode: "cors",
             method: "POST",
@@ -46,7 +49,7 @@ function Form() {
                 onChange={onChange}
                 className="mt-5 mb-3"
                 />
-            <input type='submit' value='Submit' disabled={!recaptchaVerified} className="button-theme form-submit"/>
+            <input type='submit' value='Submit' disabled={!recaptchaVerified || submitButtonPressed} className="button-theme form-submit"/>
         </form>
     );
 }
