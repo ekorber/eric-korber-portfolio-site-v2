@@ -2,11 +2,8 @@ nav {
     background: rgb(126, 0, 0);
 }
 
-.navbar-brand, .navbar-link {
+.navbar-brand, .navbar-brand:hover, .navbar-link {
     color: rgb(235, 235, 235);
-}
-
-.navbar-link {
     margin: 10px 30px 10px 0px;
     text-decoration: none;
 }
@@ -15,12 +12,12 @@ nav {
     margin: 10px 30px 10px 0px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight:700
+    font-weight:700;
 }
 
 .navbar-link-highlighted, .navbar-link-highlighted:hover {
     margin: 10px 30px 10px 0px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight:700
+    font-weight:700;
 }

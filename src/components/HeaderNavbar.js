@@ -8,7 +8,7 @@ function HeaderNavbar() {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark">
             <Container>
-                <Navbar.Brand className="navbar-brand">Eric's Portfolio</Navbar.Brand>
+                <Navbar.Brand className="navbar-brand"><NavLink to="/" className="navbar-brand">Eric's Portfolio</NavLink></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
