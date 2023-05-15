@@ -17,7 +17,7 @@ function WebDevPortfolioPage() {
                     <img src={PortfolioSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
                     <div className="card-body">
                         <h5 className="card-title portfolio-piece">This Portfolio Site</h5>
-                        <h6 class="card-subtitle mb-4 text-muted">A place to showcase my game and web development projects</h6>
+                        <h6 className="card-subtitle mb-4 text-muted">A place to showcase my game and web development projects</h6>
                         <p className="portfolio-piece">Built with the following technologies:</p>
                         <ul>
                             <li>React.js</li>
