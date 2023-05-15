@@ -9,7 +9,7 @@ function WebDevPortfolioPage() {
             </div>
             
             <div className="row">
-                <div className="card portfolio-card col-xl-3 col-lg-4 col-md-6">
+                <div className="card portfolio-card col-xl-3 col-lg-4 col-md-6 mb-5">
                     <img src={PortfolioSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
                     <div className="card-body">
                         <h5 className="card-title portfolio-piece">This Portfolio Site</h5>
