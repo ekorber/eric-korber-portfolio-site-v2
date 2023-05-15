@@ -14,13 +14,18 @@ function HeaderNavbar() {
                     <Nav>
                         <NavLink to="/"
                         className={({ isActive, isPending }) =>
+                            isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
+                        }>About Me</NavLink>
+
+                        <NavLink to="/game-dev"
+                        className={({ isActive, isPending }) =>
                         isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
                         }>Game Development</NavLink>
                         
-                        <NavLink to="/about"
+                        <NavLink to="/web-dev"
                         className={({ isActive, isPending }) =>
-                            isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
-                        }>About Me</NavLink>
+                        isPending ? "navbar-link" : isActive ? "navbar-link-highlighted" : "navbar-link"
+                        }>Web Development</NavLink>
 
                         <NavLink to="/contact"
                         className={({ isActive, isPending }) =>
