@@ -6,3 +6,7 @@
 .portfolio-piece {
     color: black;
 }
+
+.portfolio-card:hover {
+    background-color: rgb(220, 220, 220);
+}
