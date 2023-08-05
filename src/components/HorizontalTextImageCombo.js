@@ -1,13 +1,13 @@
 import './HorizontalTextImageCombo.css'
 
-function HorizontalTextImageCombo(props) {
+function HorizontalTextImageCombo({text, imageSRC, imageAltText}) {
     return (
         <div className='row'>
             <div className="col-lg-4">
-                <p className="mb-4">{props.text}</p>
+                <p className="mb-4">{text}</p>
             </div>
             <div className="col-lg-8">
-                <img src={props.imageSRC} className="text-combo-img" alt={props.imageAltText} />
+                <img src={imageSRC} className="text-combo-img" alt={imageAltText} />
             </div>
         </div>
     );

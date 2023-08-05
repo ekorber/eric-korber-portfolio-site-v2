@@ -1,15 +1,15 @@
 import EmbeddedVideoLink from "./EmbeddedVideoLink"
 
-function HalfPageShowcasePiece(props) {
+function HalfPageShowcasePiece({title, url, videoMetaTitle, description, additionalText}) {
     return (
         <div className="col-lg-6 mt-5 mb-4">
-            <h4 className="text-center">{props.title}</h4>
+            <h4 className="text-center">{title}</h4>
 
-            <EmbeddedVideoLink url={props.url} videoMetaTitle={props.videoMetaTitle} />
+            <EmbeddedVideoLink url={url} videoMetaTitle={videoMetaTitle} />
 
-            {typeof props.description !== "undefined" && <p>{props.description}</p>}
+            {typeof description !== "undefined" && <p>{description}</p>}
 
-            {typeof props.additionalText !== "undefined" && <p className="text-center mt-3 mb-4">{props.additionalText}</p>}
+            {typeof additionalText !== "undefined" && <p className="text-center mt-3 mb-4">{additionalText}</p>}
         </div>
     );
 }

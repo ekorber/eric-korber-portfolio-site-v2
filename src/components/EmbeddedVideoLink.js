@@ -1,8 +1,8 @@
 import './EmbeddedVideoLink.css'
 
-function EmbeddedVideoLink(props) {
+function EmbeddedVideoLink({url, videoMetaTitle}) {
     return (
-        <embed className="video-link" src={props.url} title={props.videoMetaTitle} frameBorder="0" allowFullScreen></embed>
+        <embed className="video-link" src={url} title={videoMetaTitle} frameBorder="0" allowFullScreen></embed>
     );
 }
 

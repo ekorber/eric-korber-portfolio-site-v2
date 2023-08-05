@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import ErrorPage from './ErrorPage';
 
-function FormSubmissionConfirmationPage(props) {
+function FormSubmissionConfirmationPage() {
 
     const params = useParams();
     const responseSuccessful = params.responseSuccess;
