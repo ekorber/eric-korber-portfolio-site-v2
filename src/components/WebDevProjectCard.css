@@ -10,3 +10,8 @@
 .portfolio-card:hover {
     background-color: rgb(220, 220, 220);
 }
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
