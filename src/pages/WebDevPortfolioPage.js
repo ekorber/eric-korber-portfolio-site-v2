@@ -1,20 +1,15 @@
-import { useNavigate } from "react-router-dom";
 import PortfolioSiteThumbnail from "../img/portfolio-site-thumbnail.webp";
 import TwinDragonSiteThumbnail from "../img/twin-dragon-site-thumbnail.webp";
 import "../components/WebDevProjectCard.css";
 
 function WebDevPortfolioPage() {
 
-    let navigate = useNavigate();
-
     return (
-        <div className='container'>
-            <div className="row">
-                <h2 className="text-center my-5">MAIN PROJECTS</h2>
-            </div>
-            
-            <div className="row">
-                <div className="card portfolio-card col-xl-3 col-lg-4 col-md-6 mb-5 mx-2" onClick={() => {navigate("/");}}>
+        <>
+            <h2 className="text-center my-5">MAIN PROJECTS</h2>
+           
+            <div className="card-list">
+                <div className="portfolio-card card">
                     <img src={PortfolioSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
                     <div className="card-body">
                         <h5 className="card-title portfolio-piece">This Portfolio Site</h5>
@@ -35,7 +30,7 @@ function WebDevPortfolioPage() {
                     </div>
                 </div>
 
-                <div className="card portfolio-card col-xl-3 col-lg-4 col-md-6 mb-5 mx-2">
+                <div className="portfolio-card card">
                     <a href="https://twindragonwoodbridge.ca/" target="_blank" rel="noopener noreferrer">
                         <img src={TwinDragonSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
                         <div className="card-body">
@@ -57,7 +52,7 @@ function WebDevPortfolioPage() {
                     </a>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

@@ -15,3 +15,15 @@ a, a:hover {
     text-decoration: none;
     color: black;
 }
+
+.card-list {
+    justify-content: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 30px;
+}
+
+.card {
+    padding: 0px 10px 0px 10px;
+}
