@@ -1,5 +1,6 @@
 import PortfolioSiteThumbnail from "../img/portfolio-site-thumbnail.webp";
 import TwinDragonSiteThumbnail from "../img/twin-dragon-site-thumbnail.webp";
+import BrightPixelAcademySiteThumbnail from "../img/bright-pixel-academy-site-thumbnail.webp";
 import "../components/WebDevProjectCard.css";
 
 function WebDevPortfolioPage() {
@@ -13,7 +14,7 @@ function WebDevPortfolioPage() {
                     <img src={PortfolioSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
                     <div className="card-body">
                         <h5 className="card-title portfolio-piece">This Portfolio Site</h5>
-                        <h6 className="card-subtitle mb-4 text-muted">A place to showcase my game and web development projects</h6>
+                        <h6 className="card-subtitle mb-4 text-muted">A place to showcase my game and web development projects.</h6>
                         <p className="portfolio-piece">Built with the following technologies:</p>
                         <ul>
                             <li>React.js</li>
@@ -32,10 +33,10 @@ function WebDevPortfolioPage() {
 
                 <div className="portfolio-card card">
                     <a href="https://twindragonwoodbridge.ca/" target="_blank" rel="noopener noreferrer">
-                        <img src={TwinDragonSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
+                        <img src={TwinDragonSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the Twin Dragon Kickboxing site." />
                         <div className="card-body">
                             <h5 className="card-title portfolio-piece">Twin Dragon Kickboxing Site</h5>
-                            <h6 className="card-subtitle mb-4 text-muted">A local kickboxing gym in Woodbridge, ON</h6>
+                            <h6 className="card-subtitle mb-4 text-muted">The official site for a local kickboxing gym I train at.</h6>
                             <p className="portfolio-piece">Built with the following technologies:</p>
                             <ul>
                                 <li>HTML</li>
@@ -47,6 +48,29 @@ function WebDevPortfolioPage() {
                                 <li>S3</li>
                                 <li>Cloudfront</li>
                                 <li>Github Actions</li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+
+                <div className="portfolio-card card">
+                    <a href="https://brightpixelacademy.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={BrightPixelAcademySiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the Bright Pixel Academy site." />
+                        <div className="card-body">
+                            <h5 className="card-title portfolio-piece">Bright Pixel Academy</h5>
+                            <h6 className="card-subtitle mb-4 text-muted">Where I teach kids how to develop and publish video games.</h6>
+                            <p className="portfolio-piece">Built with the following technologies:</p>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>My Custom Child Theme</li>
+                                <li>Spectra Plugin</li>
+                            </ul>
+                            <p className="portfolio-piece">I teach the following skills to kids:</p>
+                            <ul>
+                                <li>Python, C#, UE5 Blueprints</li>
+                                <li>Game Engines (Unreal Engine 5, Unity, Godot)</li>
+                                <li>3D Modelling & Animation</li>
+                                <li>Steam Publishing</li>
                             </ul>
                         </div>
                     </a>
