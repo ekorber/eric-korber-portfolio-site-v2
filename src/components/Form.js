@@ -43,13 +43,13 @@ function Form() {
             <input {...register("name", { maxLength: 99 })} className="form-control mb-3" placeholder='Name' required/>
             <input {...register("email", { maxLength: 300 })} className="form-control mb-3" type='email' placeholder='Email Address' required/>
             <textarea {...register("text-body", { maxLength: 9999 })} className="form-control mb-3" type='textarea' placeholder='Your message here' required/>
-            <ReCAPTCHA
+            {/* <ReCAPTCHA
                 ref={recaptchaRef}
                 sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                 onChange={onChange}
                 className="mt-5 mb-3"
-                />
-            <input type='submit' value='Submit' disabled={!recaptchaVerified || submitButtonPressed} className="button-theme form-submit mb-5"/>
+                /> */}
+            <input type='submit' value='Submit' className="button-theme form-submit mb-5"/>
         </form>
     );
 }
