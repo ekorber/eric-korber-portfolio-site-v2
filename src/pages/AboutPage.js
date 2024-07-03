@@ -23,21 +23,26 @@ function AboutPage() {
                     <h4 className="text-center my-4">Game Development</h4>
                     <ul className="list-group">
                         <li className="list-group-item">Unreal Engine 5</li>
+                        <li className="list-group-item">Unity</li>
+                        <li className="list-group-item">Godot</li>
                         <li className="list-group-item">C++</li>
-                        <li className="list-group-item">Unity3D</li>
                         <li className="list-group-item">C#</li>
                         <li className="list-group-item">Python</li>
+                        <li className="list-group-item">Blender (3D Modelling & Animation)</li>
+                        <li className="list-group-item">Steam Publishing</li>
                     </ul>
                 </div>
                 <div className='col-lg-6 mb-5'>
                     <h4 className="text-center my-4">Web Development</h4>
                     <ul className="list-group">
-                        <li className="list-group-item">HTML</li>
-                        <li className="list-group-item">CSS</li>
+                        <li className="list-group-item">HTML, CSS & JavaScript</li>
                         <li className="list-group-item">Bootstrap</li>
-                        <li className="list-group-item">Javascript</li>
+                        <li className="list-group-item">Tailwind</li>
                         <li className="list-group-item">React.js</li>
+                        <li className="list-group-item">Next.js</li>
+                        <li className="list-group-item">Express.js</li>
                         <li className="list-group-item">Amazon Web Services</li>
+                        <li className="list-group-item">Wordpress</li>
                     </ul>
                 </div>
             </div>
