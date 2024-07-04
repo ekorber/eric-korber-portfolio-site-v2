@@ -1,6 +1,6 @@
-import PortfolioSiteThumbnail from "../img/portfolio-site-thumbnail.webp";
-import TwinDragonSiteThumbnail from "../img/twin-dragon-site-thumbnail.webp";
-import BrightPixelAcademySiteThumbnail from "../img/bright-pixel-academy-site-thumbnail.webp";
+import PortfolioSiteThumbnail from "../img/portfolio-site-thumbnail.jpg";
+import TwinDragonSiteThumbnail from "../img/twin-dragon-site-thumbnail.jpg";
+import BrightPixelAcademySiteThumbnail from "../img/bright-pixel-academy-site-thumbnail.jpg";
 import "../components/WebDevProjectCard.css";
 
 function WebDevPortfolioPage() {
