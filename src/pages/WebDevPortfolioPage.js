@@ -9,26 +9,28 @@ function WebDevPortfolioPage() {
         <>
             <h2 className="text-center my-5">MAIN PROJECTS</h2>
            
-            <div className="card-list">
+            <div className="card-list mb-5">
                 <div className="portfolio-card card">
-                    <img src={PortfolioSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
-                    <div className="card-body">
-                        <h5 className="card-title portfolio-piece">This Portfolio Site</h5>
-                        <h6 className="card-subtitle mb-4 text-muted">A place to showcase my game and web development projects.</h6>
-                        <p className="portfolio-piece">Built with the following technologies:</p>
-                        <ul>
-                            <li>React.js</li>
-                            <li>Bootstrap 5</li>
-                            <li>React Router Dom</li>
-                        </ul>
-                        <p className="portfolio-piece">Hosted on AWS, using the following tools:</p>
-                        <ul>
-                            <li>S3</li>
-                            <li>Simple Email Service (SES)</li>
-                            <li>Lambda</li>
-                            <li>API Gateway</li>
-                        </ul>
-                    </div>
+                    <a href="https://brightpixelacademy.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={BrightPixelAcademySiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the Bright Pixel Academy site." />
+                        <div className="card-body">
+                            <h5 className="card-title portfolio-piece">Bright Pixel Academy</h5>
+                            <h6 className="card-subtitle mb-4 text-muted">Where I teach kids how to develop and publish video games.</h6>
+                            <p className="portfolio-piece">Built with the following technologies:</p>
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>My Custom Child Theme</li>
+                                <li>Spectra Plugin</li>
+                            </ul>
+                            <p className="portfolio-piece">I teach the following skills to kids:</p>
+                            <ul>
+                                <li>Python, C#, UE5 Blueprints</li>
+                                <li>Game Engines (Unreal Engine 5, Unity, Godot)</li>
+                                <li>3D Modelling & Animation</li>
+                                <li>Steam Publishing</li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
 
                 <div className="portfolio-card card">
@@ -54,26 +56,24 @@ function WebDevPortfolioPage() {
                 </div>
 
                 <div className="portfolio-card card">
-                    <a href="https://brightpixelacademy.com/" target="_blank" rel="noopener noreferrer">
-                        <img src={BrightPixelAcademySiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the Bright Pixel Academy site." />
-                        <div className="card-body">
-                            <h5 className="card-title portfolio-piece">Bright Pixel Academy</h5>
-                            <h6 className="card-subtitle mb-4 text-muted">Where I teach kids how to develop and publish video games.</h6>
-                            <p className="portfolio-piece">Built with the following technologies:</p>
-                            <ul>
-                                <li>Wordpress</li>
-                                <li>My Custom Child Theme</li>
-                                <li>Spectra Plugin</li>
-                            </ul>
-                            <p className="portfolio-piece">I teach the following skills to kids:</p>
-                            <ul>
-                                <li>Python, C#, UE5 Blueprints</li>
-                                <li>Game Engines (Unreal Engine 5, Unity, Godot)</li>
-                                <li>3D Modelling & Animation</li>
-                                <li>Steam Publishing</li>
-                            </ul>
-                        </div>
-                    </a>
+                    <img src={PortfolioSiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for this portfolio site." />
+                    <div className="card-body">
+                        <h5 className="card-title portfolio-piece">This Portfolio Site</h5>
+                        <h6 className="card-subtitle mb-4 text-muted">A place to showcase my game and web development projects.</h6>
+                        <p className="portfolio-piece">Built with the following technologies:</p>
+                        <ul>
+                            <li>React.js</li>
+                            <li>Bootstrap 5</li>
+                            <li>React Router Dom</li>
+                        </ul>
+                        <p className="portfolio-piece">Hosted on AWS, using the following tools:</p>
+                        <ul>
+                            <li>S3</li>
+                            <li>Simple Email Service (SES)</li>
+                            <li>Lambda</li>
+                            <li>API Gateway</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </>
