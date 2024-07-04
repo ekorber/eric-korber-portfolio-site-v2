@@ -9,7 +9,7 @@ function AboutPage() {
             </div>
 
             <div className="row col-lg-12 text-center">
-                <p className="mb-5">My name is Eric Korber, and I'm a passionate developer. Having a love for both game development and web development, I am eager to work in this industry. I have a wide ranging expertise in various programming languages, games engines and web frameworks. I'm a self-starter, always eager to learn, and constantly thinking about how to improve.</p>
+                <p className="mb-5">My name is Eric Korber. I'm a passionate developer with a background in both game and web development. I have a wide ranging expertise in various programming languages, games engines and web technologies. I have a published game on Steam, and run a small business teaching game development to kids.</p>
             </div>
 
             <hr />
