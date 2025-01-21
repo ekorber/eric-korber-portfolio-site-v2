@@ -17,20 +17,34 @@
     background-color: var(--background-light);
     border-color: var(--secondary-purple);
     border-width: 4px;
-    box-shadow: -5px 5px 8px 2px var(--secondary-purple);
-    transition: all 0.2s ease;
 }
 
-.portfolio-card:hover {
-    background-color: var(--background-dark);
-    border-color: var(--primary-blue);
-    box-shadow: -5px 5px 8px 2px var(--primary-blue);
-    transform: scale(1.05);
+@media (max-width: 767px) {
+    .portfolio-card {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
-.portfolio-card:hover .portfolio-piece-img {
-    border-color: var(--primary-blue);
+@media (min-width: 768px) {
+    .portfolio-card {
+        box-shadow: -5px 5px 8px 2px var(--secondary-purple);
+        transition: all 0.2s ease;
+    }
+
+    .portfolio-card:hover {
+        background-color: var(--background-dark);
+        border-color: var(--primary-blue);
+        box-shadow: -5px 5px 8px 2px var(--primary-blue);
+        transform: scale(1.05);
+    }
+    
+    .portfolio-card:hover .portfolio-piece-img {
+        border-color: var(--primary-blue);
+    }
 }
+
+
 
 a, a:hover {
     text-decoration: none;
