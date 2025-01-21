@@ -9,7 +9,7 @@ function HeaderNavbar() {
         <Navbar collapseOnSelect expand="lg" variant="dark">
             <Container>
                 <Navbar.Brand className="navbar-brand"><NavLink to="/" className="navbar-brand">Eric's Portfolio</NavLink></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toggle-button" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                     <Nav>
                         <NavLink to="/"

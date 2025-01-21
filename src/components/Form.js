@@ -49,7 +49,7 @@ function Form() {
                 onChange={onChange}
                 className="mt-5 mb-3"
                 /> */}
-            <input type='submit' value='Submit' className="button-theme form-submit mb-5"/>
+            <input type='submit' value='Submit' disabled={submitButtonPressed} className="button-theme form-submit mb-5"/>
         </form>
     );
 }

@@ -1,24 +1,43 @@
+/* Base Colors */
+:root {
+  --background-dark: #1e1e2f; /* Dark coding editor background */
+  --background-light: #2a2a40; /* Secondary background */
+  --primary-blue: #007acc; /* Highlight blue (inspired by VS Code) */
+  --secondary-purple: #c586c0; /* Soft purple for accents */
+  --accent-green: #89d185; /* Success and emphasis */
+  --warning-orange: #d19a66; /* Warnings or highlights */
+  --error-red: #e06c75; /* Error or alert */
+  --neutral-gray: #c9cfda; /* Text and icons */
+  --neutral-light-gray: #dcdfe4; /* Borders and muted elements */
+  --neutral-dark-gray: #3e4451; /* Shadows or depth */
+}
+
 body {
-  background: rgba(0, 0, 0, 1);
+  background: var(--background-dark);
 }
 
 .button-theme{
-  background: rgb(126, 0, 0);
-  color: white;
+  background-color: var(--background-light);
+  color: var(--neutral-gray);
   display: block;
   width: 100%;
   padding: .375rem .75rem;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
-  border: 1px solid black;
+  border-color: var(--secondary-purple);
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 0px 2px 3px 1px var(--secondary-purple);
   appearance: none;
-  border-radius: .375rem;
+  border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
-.button-theme:active {
-  background: rgb(100, 0, 0);
-  border-color: white;
+.button-theme:hover {
+  background-color: var(--background-dark);
+  border-width: 4px !important;
+  border-color: var(--primary-blue);
+  box-shadow: 0px 6px 8px 1px var(--primary-blue);
 }
 
 p {
@@ -29,5 +48,5 @@ p {
 }
 
 p, h2, h4, h5, hr {
-  color: white;
+  color: var(--neutral-gray);
 }
