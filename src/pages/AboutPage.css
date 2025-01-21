@@ -7,6 +7,24 @@
     margin-right: auto;
 }
 
-li {
-    margin-bottom: 7px;
+
+
+.list-group-item {
+    background-color: var(--background-light);
+    color: var(--neutral-gray);
+    border-width: 2px !important;
+    border-radius: 10px !important;
+    border-style: solid;
+    border-color: var(--secondary-purple);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: -3px 4px 8px 0px var(--secondary-purple);
+    transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: var(--background-dark);
+    transform: scale(1.03);
+    border-color: var(--primary-blue);
+    box-shadow: -5px 6px 8px 0px var(--primary-blue);
 }

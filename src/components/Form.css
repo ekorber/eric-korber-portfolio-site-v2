@@ -3,6 +3,8 @@ textarea {
 }
 
 .form-submit:disabled, .form-submit:disabled:active {
-    background-color: gray;
-    border-color: black;
+    border-width: 2px !important;
+    background-color: var(--neutral-dark-gray);
+    border-color: var(--neutral-light-gray);
+    box-shadow: 0px 6px 8px 1px var(--neutral-light-gray);
 }

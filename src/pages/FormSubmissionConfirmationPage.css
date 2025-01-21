@@ -1,0 +1,12 @@
+#success-message {
+    background-color: var(--accent-green);
+    border-color: var(--background-light);
+    font-weight: 500;
+}
+
+#failure-message {
+    background-color: var(--error-red);
+    border-color: var(--background-light);
+    color: var(--background-dark);
+    font-weight: 500;
+}
