@@ -15,7 +15,7 @@ function MainProjectsSection() {
             <div className="col-lg-12 mt-5 mb-4">
                 <h4 className="text-center mt-2 mb-4">Published Game On Steam</h4>
 
-                <iframe src="https://store.steampowered.com/widget/2667000/" frameborder="0" width="100%" height="190" className="mb-2"></iframe>
+                <iframe src="https://store.steampowered.com/widget/2667000/" frameBorder="0" width="100%" height="190" className="mb-2"></iframe>
 
                 <p>Built in the Godot Engine, Redrum Hotel is a first-person horror adventure made with game mechanics inspired by the indie classic <i>Slenderman</i>. Blender was used for 3D modelling and animation, with both bone and Blendshape animation techniques used.</p>
             </div>
