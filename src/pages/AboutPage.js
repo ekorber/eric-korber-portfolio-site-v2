@@ -1,4 +1,4 @@
-import PortraitImage from "../img/eric-photo.jpg";
+import PortraitImage from "../img/eric-profile-pic.jpg";
 import './AboutPage.css';
 
 function AboutPage() {
@@ -9,7 +9,7 @@ function AboutPage() {
             </div>
 
             <div className="row col-lg-12 text-center">
-                <p className="mb-5">My name is Eric Korber. I'm a passionate developer with a background in both game and web development. I have a wide ranging expertise in various programming languages, games engines and web technologies. I have a published game on Steam, and run a small business teaching game development to kids.</p>
+                <p className="mb-5">My name is Eric Korber, a full-stack developer specializing in both game and web development. With extensive experience across multiple programming languages, game engines, and web technologies, I've successfully published a title on Steam, created websites for clients, and previously operated a game development education business focused on teaching programming fundamentals to young students. I'm currently open to contract opportunities in both game and web development.</p>
             </div>
 
             <hr />

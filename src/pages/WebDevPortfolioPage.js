@@ -1,6 +1,6 @@
 import PortfolioSiteThumbnail from "../img/portfolio-site-thumbnail.jpg";
 import TwinDragonSiteThumbnail from "../img/twin-dragon-site-thumbnail.jpg";
-import BrightPixelAcademySiteThumbnail from "../img/bright-pixel-academy-site-thumbnail.jpg";
+import TalentMasonScreenshot from "../img/talentmason-screenshot.jpg";
 import "../components/WebDevProjectCard.css";
 
 function WebDevPortfolioPage() {
@@ -11,23 +11,23 @@ function WebDevPortfolioPage() {
            
             <div className="card-list mb-5">
                 <div className="portfolio-card card">
-                    <a href="https://brightpixelacademy.com/" target="_blank" rel="noopener noreferrer">
-                        <img src={BrightPixelAcademySiteThumbnail} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the Bright Pixel Academy site." />
+                    <a href="https://talentmason.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={TalentMasonScreenshot} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the TalentMason site." />
                         <div className="card-body">
-                            <h5 className="card-title portfolio-piece">Bright Pixel Academy</h5>
-                            <h6 className="card-subtitle mb-4 text-muted">Where I teach kids how to develop and publish video games.</h6>
+                            <h5 className="card-title portfolio-piece">TalentMason</h5>
+                            <h6 className="card-subtitle mb-4 text-muted">A multi-tenant Recruitment CRM.</h6>
                             <p className="portfolio-piece">Built with the following technologies:</p>
                             <ul>
-                                <li>Wordpress</li>
-                                <li>My Custom Child Theme</li>
-                                <li>Spectra Plugin</li>
+                                <li>React.js</li>
+                                <li>Express.js</li>
+                                <li>Tailwind</li>
+                                <li>Stripe</li>
                             </ul>
-                            <p className="portfolio-piece">I teach the following skills to kids:</p>
+                            <p className="portfolio-piece">Hosted on AWS, using the following tools:</p>
                             <ul>
-                                <li>Python, C#, UE5 Blueprints</li>
-                                <li>Game Engines (Unreal Engine 5, Unity, Godot)</li>
-                                <li>3D Modelling & Animation</li>
-                                <li>Steam Publishing</li>
+                                <li>S3 for front end, EC2 for server</li>
+                                <li>Simple Email Service (SES)</li>
+                                <li>RDS for the Postgres Database</li>
                             </ul>
                         </div>
                     </a>
