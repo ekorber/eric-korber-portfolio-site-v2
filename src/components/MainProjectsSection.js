@@ -17,14 +17,14 @@ function MainProjectsSection() {
 
                 <iframe src="https://store.steampowered.com/widget/2667000/" frameBorder="0" width="100%" height="190" className="mb-2"></iframe>
 
-                <p>Built in the Godot Engine, Redrum Hotel is a first-person horror adventure made with game mechanics inspired by the indie classic <i>Slenderman</i>. Blender was used for 3D modelling and animation, with both bone and Blendshape animation techniques used.</p>
+                <p>Built in Godot Engine, Redrum Hotel is a first-person horror adventure inspired by the indie classic <i>Slenderman</i>. I handled all 3D modelling and animation in Blender, using both skeletal and blend shape animation techniques.</p>
             </div>
 
             <HalfPageShowcasePiece
                 title="Doom-inspired FPS in Unreal Engine 5"
                 url="https://www.youtube.com/embed/Q1dYVwZQlZI"
                 videoMetaTitle="Rekill - Demo Footage"
-                description="This is a first-person shooter demo made in Unreal Engine 5, with a style inspired by the legendary Doom series. It features multiple weapons, some of which deal extra damage to certain enemies, a levelling system with upgrades, varied enemy types with melee and ranged attacks, weak points on certain enemies, and multiple maps to play on. I used Blender to model and animate all the weapons and monsters, and Quixel Mixer to texture them."
+                description="A first-person shooter demo made in Unreal Engine 5, inspired by the classic Doom series. Features multiple weapons with enemy-specific damage bonuses, a levelling system with upgrades, varied enemy types with weak points, and multiple playable maps. All weapons and monsters were modelled and animated in Blender, with textures created in Quixel Mixer."
                 additionalText={<strong>Download for free on <a href="https://erickorber.itch.io/rekill" target="_blank" rel="noreferrer" style={linkStyling}>Itch.io</a>.</strong>}
             />
 
@@ -32,7 +32,7 @@ function MainProjectsSection() {
                 title="Third Person Action, made in Unity"
                 url="https://www.youtube.com/embed/XBOdHimLgac"
                 videoMetaTitle="Ready For Hell - Demo Footage"
-                description="This is a short boss battle demo made in Unity. I used Blender to model and animate the boss, as well as the various dessert-related props. It was themed to be a creepier version of the famous poem Inferno, by Dante Alighieri."
+                description="A short boss battle demo made in Unity, themed as a creepier take on Dante's Inferno. I modelled and animated the boss in Blender, along with the environment props."
             />
             
         </div>

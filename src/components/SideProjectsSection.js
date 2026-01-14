@@ -9,7 +9,7 @@ function SideProjectsSection() {
             <h4 className="text-center mb-5">Comic-themed Birthday Card, made in Unreal Engine 5</h4>
             
             <HorizontalTextImageCombo
-                text="This is a birthday card I made for my friend. I modelled the pixel-esque characters, along with the arcade machine, in Blender. I setup the scene in Unreal Engine 5, created the VFX and animated poses, used Megascans for some of the materials and props, as well as MetaHuman to quickly create the hi-poly female character. I imported screenshots of the scene into Krita, to layout in a comic book format."
+                text="A birthday card I made for a friend. I modelled the pixel-style characters and arcade machine in Blender, set up the scene in Unreal Engine 5 with custom VFX and animated poses, and used Megascans for materials and MetaHuman for the female character. Final compositing was done in Krita to achieve the comic book layout."
                 imageSRC={BirthdayCardImage}
                 imageAltText="A comic book themed birthday card."
             />

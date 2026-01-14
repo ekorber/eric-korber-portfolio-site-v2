@@ -55,8 +55,42 @@ a, a:hover {
     justify-content: center;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 500px));
     gap: 30px;
+}
+
+.card-list.expanded-layout {
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-list.expanded-layout .portfolio-card {
+    max-width: 100%;
+}
+
+.project-description {
+    color: var(--neutral-light-gray) !important;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.project-description strong {
+    color: var(--neutral-light-gray) !important;
+}
+
+.feature-list {
+    margin-bottom: 1rem;
+}
+
+.feature-list li {
+    margin-bottom: 0.3rem;
+}
+
+.tech-stack {
+    font-style: italic;
+    color: var(--neutral-gray) !important;
+    margin-top: 1rem;
 }
 
 .card {

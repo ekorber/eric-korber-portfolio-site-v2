@@ -1,4 +1,4 @@
-import PortraitImage from "../img/eric-profile-pic.jpg";
+import PortraitImage from "../img/eric-profile-pic.webp";
 import './AboutPage.css';
 
 function AboutPage() {
@@ -9,7 +9,8 @@ function AboutPage() {
             </div>
 
             <div className="row col-lg-12 text-center">
-                <p className="mb-5">My name is Eric Korber, a full-stack developer specializing in both game and web development. With extensive experience across multiple programming languages, game engines, and web technologies, I've successfully published a title on Steam, created websites for clients, and previously operated a game development education business focused on teaching programming fundamentals to young students. I'm currently open to contract opportunities in both game and web development.</p>
+                <p className="mb-4">I'm Eric Korber, a full-stack developer specializing in both web and game development. On the web side, I build complete solutions for businesses; SaaS platforms with payment processing, marketing websites with custom admin dashboards, and internal tools to streamline operations. For game development, I work with Unreal Engine 5, Unity, and Godot, and have published a title on Steam.</p>
+                <p className="mb-5">My recent web projects include multi-tenant applications with Stripe billing, AI-powered data imports, inventory management systems, and content management dashboards—all built on scalable AWS infrastructure. I also previously ran a game development education business teaching programming fundamentals to young students. If you have a project in mind, I'd love to hear about it.</p>
             </div>
 
             <hr />
