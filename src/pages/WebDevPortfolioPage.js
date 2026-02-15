@@ -7,7 +7,7 @@ function WebDevPortfolioPage() {
 
     return (
         <>
-            <h2 className="text-center my-5">MAIN PROJECTS</h2>
+            <h2 className="text-center my-5">RECENT PROJECTS</h2>
            
             <div className="card-list mb-5">
                 <div className="portfolio-card card">
@@ -17,7 +17,7 @@ function WebDevPortfolioPage() {
                             <h5 className="card-title portfolio-piece">TalentMason</h5>
                             <h6 className="card-subtitle mb-3 text-muted">Recruitment CRM Platform</h6>
                             <p className="project-description">
-                                This is a recruitment-focused CRM I have been developing end-to-end. The architecture supports complete organizational isolation through per-tenant database schemas, integrates AI for smart data imports, and handles the full billing lifecycle through Stripe. The window-based workspace UI lets recruiters arrange their data views however they want, making it easy to manage candidates, clients, and job pipelines side by side.
+                                This is a recruitment-focused CRM I developed end-to-end for a Tokyo-based agency specializing in bilingual IT placements. English is the primary interface language, as is common in that niche of the Japanese recruitment industry. The architecture supports complete organizational isolation through per-tenant database schemas, integrates AI for smart data imports, and handles the full billing lifecycle through Stripe. The window-based workspace UI lets recruiters arrange their data views however they want, making it easy to manage candidates, clients, and job pipelines side by side.
                             </p>
                             <p className="portfolio-piece"><strong>What I delivered:</strong></p>
                             <ul className="feature-list">
