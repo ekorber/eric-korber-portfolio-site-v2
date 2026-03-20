@@ -1,6 +1,6 @@
 import CodeDibsScreenshot from "../img/codedibs.webp";
 import TwinDragonScreenshot from "../img/twindragon.webp";
-import TalentMasonScreenshot from "../img/talentmason.webp";
+import SmithsvilleRetreatScreenshot from "../img/smithsville-retreat.webp";
 import "../components/WebDevProjectCard.css";
 
 function WebDevPortfolioPage() {
@@ -11,25 +11,24 @@ function WebDevPortfolioPage() {
            
             <div className="card-list mb-5">
                 <div className="portfolio-card card">
-                    <a href="https://talentmason.com/" target="_blank" rel="noopener noreferrer">
-                        <img src={TalentMasonScreenshot} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the TalentMason site." />
+                    <a href="https://smithsvilleretreat.ca/" target="_blank" rel="noopener noreferrer">
+                        <img src={SmithsvilleRetreatScreenshot} className="img-thumbnail mt-2 portfolio-piece-img" alt="The thumbnail for the Smithsville Retreat site." />
                         <div className="card-body">
-                            <h5 className="card-title portfolio-piece">TalentMason</h5>
-                            <h6 className="card-subtitle mb-3 text-muted">Recruitment CRM Platform</h6>
+                            <h5 className="card-title portfolio-piece">Smithsville Retreat</h5>
+                            <h6 className="card-subtitle mb-3 text-muted">Countryside Retreat Booking Platform</h6>
                             <p className="project-description">
-                                This is a recruitment-focused CRM I developed end-to-end for a Tokyo-based agency specializing in bilingual IT placements. English is the primary interface language, as is common in that niche of the Japanese recruitment industry. The architecture supports complete organizational isolation through per-tenant database schemas, integrates AI for smart data imports, and handles the full billing lifecycle through Stripe. The window-based workspace UI lets recruiters arrange their data views however they want, making it easy to manage candidates, clients, and job pipelines side by side.
+                                A full-stack booking platform I built for a rural countryside retreat property. Guests can browse accommodations, check availability with blocked-date awareness, and complete reservations with Stripe payment processing. The admin dashboard gives the property owner full control over bookings, accommodations, pricing, and date availability — with automated email notifications keeping everyone in the loop throughout the booking lifecycle.
                             </p>
                             <p className="portfolio-piece"><strong>What I delivered:</strong></p>
                             <ul className="feature-list">
-                                <li>Multi-tenant PostgreSQL architecture with per-organization schema isolation for secure data separation</li>
-                                <li>AI-powered database imports using AWS Bedrock (Claude) for intelligent column mapping from CSV, JSON, and SQL files</li>
-                                <li>Stripe integration with per-seat billing, webhooks, multi-currency support, and invoice management</li>
-                                <li>Role-based team management with invitation system, email verification, and granular permissions (Owner, Admin, Manager)</li>
-                                <li>Custom window-based workspace UI with drag-and-drop, layering, and snap-to-grid positioning</li>
-                                <li>Flexible database customization allowing teams to add/remove fields, organize tabs, and structure views without code changes</li>
-                                <li>AWS infrastructure including S3 presigned uploads, SES email delivery, CloudFront CDN, and Secrets Manager</li>
+                                <li>Date-based reservation system with blocked-date awareness, overnight vs. day visit toggling, and real-time price calculation</li>
+                                <li>Stripe payment integration with admin-generated payment links, webhook handling, and automatic booking status updates</li>
+                                <li>Admin dashboard with booking management, accommodation editing, image galleries with drag-and-drop reordering, and blocked date controls</li>
+                                <li>Automated email notifications via AWS SES for booking confirmations, payment receipts, and cancellations</li>
+                                <li>Supabase backend with PostgreSQL, Row-Level Security policies, Edge Functions, and role-based auth</li>
+                                <li>Multi-environment deployment pipeline to AWS S3 + CloudFront for staging and production</li>
                             </ul>
-                            <p className="tech-stack"><strong>Built with:</strong> React 19, Node.js/Express 5, PostgreSQL, AWS (S3, SES, Bedrock, CloudFront, Secrets Manager), Stripe</p>
+                            <p className="tech-stack"><strong>Built with:</strong> React 19, TypeScript, Vite, Tailwind CSS 4, Supabase (PostgreSQL, Auth, Edge Functions), Stripe, AWS (S3, SES, CloudFront)</p>
                         </div>
                     </a>
                 </div>
